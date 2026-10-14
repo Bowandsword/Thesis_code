@@ -1,0 +1,9 @@
+path: "C:/Users/bowan/Desktop/Git_hub_folder_test/Thesis_code/Tutorial_code/Pure_image_methods/Detection/Yolo_test_shapes"
+train: train/images
+val: val/images
+
+nc: 2
+
+names:
+  0: circle
+  1: square
