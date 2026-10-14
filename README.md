@@ -126,10 +126,10 @@ Across the full image sequence, these masks are converted into time-resolved mea
 
 The main outputs therefore include:
 
-- full-image segmentation masks;
-- fractional dendrite and non-dendrite surface coverage;
-- bubble-excluded surface measurements;
-- time-aligned electrochemical data; and
+- full-image segmentation masks
+- fractional dendrite and non-dendrite surface coverage
+- bubble-excluded surface measurements
+- time-aligned electrochemical data
 - dashboard visualisations combining the original images, segmentation results and electrochemical measurements.
 
 The dashboard output provides a convenient way to review both the extracted data and the quality of the ML classifications throughout the experiment.
@@ -165,9 +165,9 @@ Unlike DOOM and the machine-learning tutorials, the distributed BOOMHER workflow
 
 The workflow combines:
 
-- YOLO object detection;
-- machine-vision measurements; and
-- object tracking between sequential images.
+- YOLO object detection
+- machine-vision measurements
+- object tracking between sequential images
 
 The YOLO model identifies visible bubbles and produces a bounding box around each detection. These bounding boxes are then used to estimate bubble position and visible dimensions.
 
@@ -175,14 +175,14 @@ An object-tracking system associates detections between sequential images and as
 
 BOOMHER can extract measurements including:
 
-- number of visible bubbles;
-- bubble position;
-- visible bubble size;
-- estimated bubble volume;
-- surface coverage;
-- growth of individual bubbles;
-- cumulative visible bubble growth; and
-- changes in bubble behaviour through time.
+- number of visible bubbles
+- bubble position
+- visible bubble size
+- estimated bubble volume
+- surface coverage
+- growth of individual bubbles
+- cumulative visible bubble growth
+- changes in bubble behaviour through time
 
 ### Current BOOMHER version
 
@@ -236,15 +236,15 @@ The numerical outputs record properties of the detected bubbles through time, in
 
 The program also generates derived measurements and visualisations including:
 
-- bubble surface coverage;
-- bubble-volume measurements;
-- individual bubble tracking data;
-- bubble-growth measurements;
-- bubble-position data;
-- bubble-residence heatmaps;
-- electrochemical cycling plots;
-- annotated images showing detected bubbles and their assigned IDs; and
-- an animated dashboard combining the image and quantitative outputs.
+- bubble surface coverage
+- bubble-volume measurements
+- individual bubble tracking data
+- bubble-growth measurements
+- bubble-position data
+- bubble-residence heatmaps
+- electrochemical cycling plots
+- annotated images showing detected bubbles and their assigned IDs
+- an animated dashboard combining the image and quantitative outputs
 
 Several of the intermediate and processed datasets are also saved as CSV files so they can be examined independently or used for additional analysis in other software.
 
@@ -443,13 +443,13 @@ The supplied DOOM and BOOMHER models were trained using the operando optical dat
 
 Their performance therefore depends on the visual conditions represented in those training datasets, including:
 
-- image scale;
-- illumination;
-- optical configuration;
-- electrode appearance;
-- image contrast;
-- bubble appearance; and
-- electrode morphology.
+- image scale
+- illumination
+- optical configuration
+- electrode appearance
+- image contrast
+- bubble appearance
+- electrode morphology
 
 The supplied models should not be assumed to generalise reliably to substantially different experimental or imaging conditions.
 
