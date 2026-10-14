@@ -252,7 +252,7 @@ The animated dashboard is intended both as a presentation of the extracted measu
 
 An example animated BOOMHER dashboard can be viewed here:
 
-[BOOMHER animated dashboard – YouTube](ADD_YOUTUBE_LINK_HERE)
+[BOOMHER animated dashboard – YouTube](https://youtu.be/erB9jJIrsCU?si=LfVNn5GVSa0Baaba)
 
 ### BOOMHER experimental data
 
